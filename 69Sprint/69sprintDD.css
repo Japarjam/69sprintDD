@@ -1,0 +1,30 @@
+/*69SprintDD*/
+  <Dropdown
+  name="location"
+  title="Select location"
+  list={locations}
+  onChange={this.onChange}
+/>
+
+<DropdownMultiple
+  name="location"
+  title="Select location"
+  titleSingular="location"
+  list={locations}
+  onChange={this.onChange}
+/>
+
+<Dropdown
+  ref={this.dropdownRef}
+  ...
+/>
+
+<Dropdown
+  name="location"
+  title="Select location"
+  list={locations}
+  onChange={this.onChange}
+  styles={{
+    headerTitle: { color: 'red' }
+  }}
+/>
